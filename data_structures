@@ -1,0 +1,27 @@
+numbers  = [1, 2,4, 3.14]
+
+print (numbers)
+
+my_list = [1, "Hello", 4.5]
+
+
+languages = ["python", "Java", "C++"]
+
+#slicing of a Pyhton list
+print(languages[-1])
+
+my_list = ['p','r','o','g','m',]
+
+print(my_list[2:5])
+
+#append() used to add items at the end of the list
+
+num = [21,22]
+print ("Before Append:", num)
+num.append(32)
+
+print("After Append:", num)
+
+
+
+#TUPLES
