@@ -2,15 +2,15 @@
 
 welcome_message = "Welcome to the loops.py"
 
-for i in range(5):
-    print("Welcome message")
-
+for i in [0,5,1]:
+   # print("Welcome message")
+    print(i)
 # infinite number
-    count = 0
-    while count <= 7:
-        # Loop Body
-        print (count)
-        count += 1
+    # count = 0
+    # while count <= 7:
+    #     # Loop Body
+    #     print (count)
+    #     count += 1
 
 # clothes loop
     
@@ -47,9 +47,12 @@ for age in ages:
     if age <21:
         continue
     print (age)
-
-    #Nested loops
+  #Nested loops
     groups = [["Paul", "skinny"], ["Annette", "George"]]
     for group in groups:
         for name in group:
             print(name)
+
+
+
+            
