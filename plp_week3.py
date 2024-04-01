@@ -1,3 +1,16 @@
+#  WEEK 3 ASSIGNMENT
+
+def calculate_discount(price, discount_percentage):
+    return price * discount_percentage / 100
+
+discount = calculate_discount(100, 10) 
+print(discount)
+
+
+
+
+#if else 
+
 Mary = 20
 
 if Mary > 18:
@@ -33,4 +46,3 @@ if Weekday:
     print("Wake up at 6:30")
 else: 
     print("sleep in")
-
